@@ -1,0 +1,93 @@
+body {
+    background-image: url(/Images/download.jpeg);
+}
+
+.menu {
+    width: 80%;
+    background-color: #68dea7;
+    margin: auto;
+    max-width: 500px;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+h1, h2, p {
+    text-align: center;
+}
+
+.border {
+    width: 75%;
+    height: 5px;
+    background-color: black;
+    margin: auto;
+}
+
+.price {
+    text-align: right; 
+    width: 75%; 
+    color: yellow;
+}
+
+.menu-item p {
+   display: inline;
+   margin: 10px 0 10px 0;
+   font-size: 18px;
+}
+
+.chip {
+    text-align: left;
+    width: 75%;
+}
+
+input[type="submit"] {
+    display: block;
+    margin: auto;
+    border-radius: 50px;
+    width: 150px;
+    height: 50px;
+    font-size: 1.5em;
+   } 
+
+input[type="submit"]:hover {
+    cursor: pointer;
+    background-color: red;
+    color: white;
+   }
+
+input[type="text"] {
+    display: inline;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.name {
+   display: block;
+    
+}
+
+.strong {
+    color: red;
+    animation: urgent 1000ms ease-in-out infinite;
+}
+
+label {
+    margin-top: 20px;
+    margin-left: 95px;
+}
+
+textarea {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    height: 100%;
+}
+
+@keyframes urgent {
+    50% {
+        color: black;
+    }
+    
+    100% {
+        color: red;
+    }
+}

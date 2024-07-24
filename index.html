@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Snacks</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="menu">
+        <h1>Snacks</h1>
+        <p>Made By Timothy Davis</p>
+    <div class="border"></div>
+<form id="menu-form" action="mailto:timothydavis423@gmail.com" method="post" enctype="text/plain">
+    <h2>Chips</h2>
+    <label  class="name">Enter Your First and Last Name:
+      <input id="first-name" name="Name" type="text" required >
+    </label>
+    <article class="menu-item"> 
+        <input id="Doritos"type="checkbox" name="Doritos"> 
+        <p class="chip">Doritos</p> 
+        <p class="price">1.75$</p>
+    </article>
+    <article class="menu-item">
+        <input type="checkbox" name="Lays"> 
+        <p class="chip">Lays</p>
+        <p class="price">2.00$</p>
+    </article>
+    
+    <article class="menu-item">
+        <input type="checkbox" name="Hot Fries"> 
+        <p class="chip">Hot Fries</p>
+        <p class="price">3.00$</p>
+    </article>
+
+    <article class="menu-item">
+      <input type="checkbox" name="Takis"> 
+      <p class="chip">Takis</p>
+      <p class="price">3.00$</p>
+    </article>
+    
+    <label>Your Favorite Chip Not Here? Put It Below
+     <textarea id="Chip" name="Chip Recommdations " rows="3" cols="30" placeholder="Chip Name"></textarea>
+    </label>
+    
+    
+    <input id="submit" class="order" type="submit" value="Order">
+    <p class="strong">***Bring the <strong>EXACT</strong> Amount of Money To Programming. 
+    Not a Cent more or a Cent less.***</p>
+    <h2 id="thanks"></h2>
+    </div>
+</form>
+
+
+
+	<script src="index.js"></script>
+  </body>
+</html>
